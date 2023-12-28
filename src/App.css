@@ -7,3 +7,12 @@
   font-family: montserrat;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+  padding: 0 10%;
+  padding-top: 50px;
+}
