@@ -1,0 +1,41 @@
+header {
+    position: relative;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    color: white;
+  }
+  
+  header h2 {
+    font-weight: normal;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url("https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+  }
+  
+  header p {
+    text-align: center;
+    width: 150px;
+  }
+  
+  button {
+    background: #80adaa;
+    border: 0;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+  }
